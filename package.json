@@ -1,0 +1,26 @@
+{
+    "name": "theme-calm",
+    "displayName": "Calm Theme",
+    "description": "A calm color theme",
+    "version": "0.0.1",
+    "publisher": "Brendan Desmond",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/brendes/calm-vscode-theme"
+	},
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Calm",
+                "uiTheme": "vs",
+                "path": "./themes/calm-color-theme.json"
+            }
+        ]
+    }
+}
