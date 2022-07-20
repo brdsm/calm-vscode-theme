@@ -6,7 +6,7 @@
     "publisher": "Brendan Desmond",
     "repository": {
 		"type": "git",
-		"url": "https://github.com/brendes/calm-vscode-theme"
+		"url": "https://github.com/brdsm/calm-vscode-theme"
 	},
     "engines": {
         "vscode": "^1.59.0"
