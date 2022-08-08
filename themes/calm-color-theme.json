@@ -3,13 +3,14 @@
 	"type": "light",
 	"colors": {
 		"editor.background": "#ffffff",
-		"editor.foreground": "#222222",
+		"editor.foreground": "#000000",
 		"editor.findMatchBackground": "#b2d8deee",
 		"editor.findMatchHighlightBackground": "#f4dbaeee",
-		"editor.lineHighlightBorder": "#eaeaea",
+		"editor.lineHighlightBorder": "#f2f2f2",
 		"editor.rangeHighlightBackground": "#f8f8f8",
 		"editor.selectionHighlightBackground": "#eaeaea",
 		"editor.selectionBackground": "#eaeaea",
+		"diffEditor.insertedLineBackground": "#ccddbbee",
 
 		"activityBar.background": "#f8f8f8",
 		"activityBar.foreground": "#000000",
@@ -43,7 +44,7 @@
 		"sideBar.border": "#c8c8c8",
 		"sideBarSectionHeader.background": "#f8f8f8",
 		"statusBar.background": "#f8f8f8",
-		"statusBar.foreground": "#222222",
+		"statusBar.foreground": "#000000",
 		"statusBar.border": "#c8c8c8",
 		"statusBarItem.remoteBackground": "#6699ee",
 		"statusBarItem.remoteForeground": "#ffffff",
@@ -56,10 +57,10 @@
 		"titleBar.activeBackground": "#f8f8f8",
 
 		"terminal.background": "#ffffff",
-		"terminal.foreground": "#222222",
+		"terminal.foreground": "#000000",
 		"terminal.selectionBackground": "#eaeaea",
 		"terminal.ansiWhite": "#eaeaea",
-		"terminal.ansiBlack": "#222222",
+		"terminal.ansiBlack": "#000000",
 		"terminal.ansiBlue": "#5577cc",
 		"terminal.ansiCyan": "#77aaaa",
 		"terminal.ansiGreen": "#709966",
@@ -117,7 +118,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -127,7 +128,7 @@
 				"storage"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -137,7 +138,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#8899aa"
+				"foreground": "#999999"
 			}
 		},
 		{
@@ -148,8 +149,7 @@
 				"variable.language"
 			],
 			"settings": {
-				// "foreground": "#aa8899"
-				"foreground": "#8899aa"
+				"foreground": "#999999"
 			}
 		},
 		{
@@ -159,7 +159,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -169,7 +169,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -180,7 +180,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -205,14 +205,14 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#8899aa"
+				"foreground": "#999999"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#8899aa"
+				"foreground": "#999999"
 			}
 		},
 		{
@@ -233,14 +233,14 @@
 			"name": "Strings: Symbols",
 			"scope": "constant.other.symbol",
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -304,7 +304,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -314,7 +314,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -398,7 +398,7 @@
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -433,7 +433,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -462,21 +462,21 @@
 				"meta.separator"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Extra: Diff From",
 			"scope": "meta.diff.header.from-file",
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Extra: Diff To",
 			"scope": "meta.diff.header.to-file",
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#000000"
 			}
 		}
 	]

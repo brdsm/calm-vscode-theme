@@ -2,17 +2,17 @@
 
 A light theme with minimal syntax highlighting and calm, clear colors.
 
-![screenshot with selection](./screenshot-1.png) ![screenshot with search](./screenshot-2.png)
+![screenshot of hoon with search](./screenshot-1.png) ![screenshot of C with highlight](./screenshot-2.png)
 
 Syntax highlighting is enabled for the following:
 
 | syntax element  | color      |
 | --------------- | ---------- |
-| comment         | gray       |
-| docstring       | slate gray |
-| constant        | slate gray |
-| type            | slate gray |
-| string          | slate gray |
+| comment         | light gray |
+| docstring       | gray       |
+| constant        | gray       |
+| type            | gray       |
+| string          | gray       |
 | escape sequence | brown      |
 | regex           | brown      |
 
