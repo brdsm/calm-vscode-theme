@@ -1,26 +1,13 @@
 # Calm Theme
 
-A light theme with minimal syntax highlighting and calm, clear colors.
+A light grayscale syntax theme with a calm and clear UI.
 
-![screenshot of hoon with search](./screenshot-1.png) ![screenshot of C with highlight](./screenshot-2.png)
+A single color (cyan) is used for strings and constants, and its various shades and saturations are used as accent colors throughout the editor UI.
 
-Syntax highlighting is enabled for the following:
-
-| syntax element  | color      |
-| --------------- | ---------- |
-| comment         | light gray |
-| docstring       | gray       |
-| constant        | gray       |
-| type            | gray       |
-| string          | gray       |
-| escape sequence | brown      |
-| regex           | brown      |
-
-For now, it's helpful enough to have the same color for multiple different syntax elements. I am more concerned with seeing the structure of the text than I am with remembering what each color signifies.
+![screenshot of C with selection](./screenshot-c.png) ![screenshot of Hoon with search](./screenshot-hoon.png)
 
 ## Why?
 
 - I find syntax highlighted with few colors less confusing than syntax highlighted with many colors.
 - Light-colored themes tend to make it easier for my eyes to focus on the text.
 - For UI elements such as search, popup boxes, etc., I find strong colors with decent contrast to be the most helpful.
-
