@@ -1,26 +1,42 @@
 {
-    "name": "theme-calm",
-    "displayName": "Calm Theme",
-    "description": "A calm color theme",
-    "version": "0.0.1",
-    "publisher": "Brendan Desmond",
-    "repository": {
-		"type": "git",
-		"url": "https://github.com/brdsm/calm-vscode-theme"
-	},
-    "engines": {
-        "vscode": "^1.59.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Calm",
-                "uiTheme": "vs",
-                "path": "./themes/calm-color-theme.json"
-            }
-        ]
-    }
+  "name": "theme-calm",
+  "displayName": "Calm Themes",
+  "description": "Calm color themes",
+  "version": "0.0.1",
+  "publisher": "Brendan Desmond",
+  "type": "module",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/brdsm/calm-vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Calm Light",
+        "uiTheme": "vs",
+        "path": "./themes/calm-light-color-theme.json"
+      },
+      {
+        "label": "Calm Colored Light",
+        "uiTheme": "vs",
+        "path": "./themes/calm-colored-light-color-theme.json"
+      },
+      {
+        "label": "Calm Leaf",
+        "uiTheme": "vs",
+        "path": "./themes/calm-leaf-color-theme.json"
+      },
+      {
+        "label": "Calm Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/calm-dark-color-theme.json"
+      }
+    ]
+  }
 }
