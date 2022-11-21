@@ -1,13 +1,11 @@
 # Calm Theme
 
-A light grayscale syntax theme with a calm and clear UI.
+Themes with calm syntax colors and a clear editor UI.
 
-A single color (cyan) is used for strings and constants, and its various shades and saturations are used as accent colors throughout the editor UI.
+## Variants
 
-![screenshot of C with selection](./screenshot-c.png) ![screenshot of Hoon with search](./screenshot-hoon.png)
+### Calm Light, Calm Dark, Calm Leaf
+Monochrome syntax themes using different shades for syntax elements.
 
-## Why?
-
-- I find syntax highlighted with few colors less confusing than syntax highlighted with many colors.
-- Light-colored themes tend to make it easier for my eyes to focus on the text.
-- For UI elements such as search, popup boxes, etc., I find strong colors with decent contrast to be the most helpful.
+### Calm Colored
+Colored syntax theme using muted but distinguishable colors.
