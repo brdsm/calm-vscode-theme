@@ -9,3 +9,8 @@ Monochrome syntax themes using different shades for syntax elements.
 
 ### Calm Colored
 Colored syntax theme using muted but distinguishable colors.
+
+## TODO
+- use theme template instead of tediously-edited separate theme files for each variant
+- colored dark theme
+- screenshots
